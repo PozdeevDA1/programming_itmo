@@ -8,8 +8,8 @@
 
 a, b, c = map(int, input().split())
 if a >= b >= c or a <= b <= c:
-    write(b)
+    print(b)
 if b >= a >= c or b <= a <= c:
-    write(a)
+    print(a)
 else:
-    write(c)
+    print(c)
