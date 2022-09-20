@@ -27,6 +27,4 @@ def add_fractions(a, b, c, d):
                 x = x % y
 
         return (ch // (x + y), zn // (x + y))
-    """
-    return Ellipsis # Напишите тело функции и правильный return
 
